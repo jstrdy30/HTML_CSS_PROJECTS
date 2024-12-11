@@ -1,0 +1,108 @@
+  *{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;    
+  }
+  body{
+    background-image: url(background.png);
+  }
+  nav {
+    display: flex; /* Makes the nav container a flexbox */
+    justify-content: space-between; /* Distributes space between logo and navigation items */
+    align-items: center; /* Vertically centers the items */
+    padding: 10px 65px; /* Adds space around the content */
+  }
+  
+  /* Logo Styling */
+  .logo a {
+    font-size: 24px; /* Adjust the font size of the logo */
+    font-weight: bold; /* Makes the logo text bold */
+    color: white; /* Makes the logo text white */
+    cursor: pointer; /* Changes cursor to a pointer */
+    font-size: 20px;
+    text-decoration: none;
+    
+  }
+  
+  /* Navigation Styling */
+  nav ul {
+    list-style: none; /* Removes the default list bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Makes the list items display in a row */
+  }
+  
+  nav ul li {
+    margin-left: 20px; /* Adds space between the list items */
+  }
+  
+  nav ul li a {
+    color: white; /* Makes the links white */
+    text-decoration: none; /* Removes the underline from links */
+    font-size: 16px; /* Sets the font size for the links */
+    transition: background-color 0.3s ease; /* Adds smooth transition on hover */
+    font-size: 13px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #5f5f5f; /* Changes the background on hover */
+  }
+  
+  article{
+    
+    padding: 0;
+    margin: 0;
+  }
+  .headline h4{
+    color: #246ad3;
+  }
+  article header .headline{
+    color: #ffffff;
+    width: 500px;
+    padding: 110px 65px;
+    background-color: inherit;     
+  }
+  .headline p{
+    font-size: small;
+  }
+  .headline a button{
+    font-weight: bolder;
+    font-size: 1cap;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px 15px;
+    background-color: #246ad3;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;    ;
+  }
+  .headline p{
+    line-height: 1.5;
+  }
+  .headline a{
+    text-decoration: none;
+    line-height: 2.5;
+  }
+  .headline .button1{
+    padding: 0px;
+    margin: 0px;
+  }
+  .headline .button2{
+    padding: 0 10px;
+  }
+  .headline button{
+    height: 25px;
+    width: 93px;
+  }
+  .headline button:hover{
+    background-color: #1c4d97;
+    transition: background-color 0.3s ease; 
+  }
+  .logo2 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+  }
+  article .logo2{
+    float: right;
+    padding: 110px 65px;
+  }
